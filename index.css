@@ -3,18 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    padding: 10px;
-}
+
 .blocks {
-    min-height: 600px;
-    width: 600px;
-    outline: 10px solid rgba(59, 186, 228, 0.1);
+    min-height: 100vh;
+    width: 100%;
+    border: 2rem solid rgba(53, 138, 166, 0.1);
 }
 .ntop {
     width: inherit;
-    padding: 10px;
-    min-height: 80px;
+    min-height: 14vh;
     background-color: rgb(58, 213, 251);
     display: flex;
     align-items: center;
@@ -22,12 +19,12 @@ body {
 }
 .ncenter {
     width: inherit;
-    min-height: 400px;
+    min-height: 60vh;
     float: left;
-    margin: 15px 0;
+    margin: 1% 0;
 }
 .nnav {
-    width: 100px;
+    width: 20%;
     background-color: rgb(58, 213, 251);
     min-height: inherit;
     float: left;
@@ -36,17 +33,17 @@ body {
     justify-content: center;
 }
 .maincont {
-    width: 380px;
+    width: 58%;
     background-color: rgb(0, 153, 255);
     min-height: inherit;
     float: left;
-    margin: 0 10px;
+    margin: 0 1%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .nsidebar {
-    width: 100px;
+    width: 20%;
     background-color: rgb(58, 213, 251);
     float: left;
     min-height: inherit;
@@ -56,9 +53,8 @@ body {
 }
 .nfooter {
     width: inherit;
-    min-height: 100px;
     background-color: rgb(58, 213, 251);
-    min-height:90px;
+    min-height: 14vh;
     float: left;
     display: flex;
     align-items: center;
