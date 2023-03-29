@@ -60,4 +60,39 @@
     align-items: center;
     justify-content: center;
 }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .blocks {
+        border: none;
+    }
+    .nnav {
+        width: 30%;
+    }
+    .nsidebar {
+        width: 30%;
+    }
+    .maincont {
+        width: 38%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+    .ncenter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nnav {
+        width: 100%;
+    }
+    .maincont {
+        margin: 1% 0;
+        width: 100%;
+    }
+    .nsidebar{
+        width: 100%;
+    }
+}
+
 
