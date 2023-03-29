@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 10px;
+}
+.blocks {
+    min-height: 600px;
+    width: 600px;
+    outline: 10px solid rgba(59, 186, 228, 0.1);
+}
+.ntop {
+    width: inherit;
+    padding: 10px;
+    min-height: 80px;
+    background-color: rgb(58, 213, 251);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ncenter {
+    width: inherit;
+    min-height: 400px;
+    float: left;
+    margin: 15px 0;
+}
+.nnav {
+    width: 100px;
+    background-color: rgb(58, 213, 251);
+    min-height: inherit;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maincont {
+    width: 380px;
+    background-color: rgb(0, 153, 255);
+    min-height: inherit;
+    float: left;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nsidebar {
+    width: 100px;
+    background-color: rgb(58, 213, 251);
+    float: left;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nfooter {
+    width: inherit;
+    min-height: 100px;
+    background-color: rgb(58, 213, 251);
+    min-height:90px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
