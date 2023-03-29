@@ -85,6 +85,7 @@
     }
     .nnav {
         width: 100%;
+        margin: 2% 0;
     }
     .maincont {
         margin: 1% 0;
@@ -92,6 +93,7 @@
     }
     .nsidebar{
         width: 100%;
+        margin: 2% 0;
     }
 }
 
